@@ -1,1 +1,6 @@
+# Ignore the entire data folder
 data/
+
+# BUT keep README.md files inside data/ and its subfolders
+!data/README.md
+!data/**/README.md
